@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat e:/Projects/learn/claude-code/src/entrypoints/*.ts)",
+      "Bash(head -60 e:/Projects/learn/claude-code/src/remote/*.ts)",
+      "Bash(head -60 e:/Projects/learn/claude-code/src/skills/*.ts)",
+      "Bash(head -60 e:/Projects/learn/claude-code/src/buddy/*.ts)",
+      "Bash(cat e:/Projects/learn/claude-code/**/*)",
+      "Bash(head e:/Projects/learn/claude-code/**/*)",
+      "Bash(tail e:/Projects/learn/claude-code/**/*)",
+      "Read(e:/Projects/learn/claude-code/**/*)",
+      "Read(//mnt/e/Projects/learn/claude-code/src/services/api/**)",
+      "Read(//mnt/e/Projects/learn/claude-code/**)",
+      "Read(//c/Users/**)",
+      "Bash(ls -la e:/Projects/learn/claude-code/learn/11-*.md)",
+      "Bash(wc -l e:/Projects/learn/claude-code/learn/11-*.md)",
+      "Bash(grep -l \"type QuerySource\" /e/Projects/learn/claude-code/src/**/*.ts)",
+      "Bash(find /e/Projects/learn/claude-code/src -name \"*.ts\" -exec grep -l \"QuerySource\" {} \\\\;)"
+    ],
+    "additionalDirectories": [
+      "e:\\Projects\\learn\\claude-code\\learn"
+    ]
+  }
+}

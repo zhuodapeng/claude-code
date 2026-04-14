@@ -3,8 +3,10 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "noEmit": true,
     "allowJs": true,
     "jsx": "react-jsx",
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@ant/claude-for-chrome-mcp": [
@@ -18,7 +20,8 @@
       ]
     },
     "types": [
-      "bun-types"
+      "bun-types",
+      "node"
     ]
   }
 }
